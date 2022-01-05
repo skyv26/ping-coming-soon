@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![All Device Support](./images/screenshot.png)
 
 ### Links
 
