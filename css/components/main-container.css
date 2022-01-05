@@ -1,0 +1,55 @@
+main {
+  width: 100%;
+}
+
+main > figure {
+  width: 100%;
+  align-items: center;
+}
+
+main figure img {
+  width: 85%;
+  margin: auto;
+}
+
+@media (min-width: 20em) {
+    main figure img {
+        width: 85.25%;
+        margin: auto;
+      }
+}
+
+@media (min-width: 23em) {
+    main figure img {
+        width: 85.5%;
+        margin: auto;
+      }
+}
+
+@media (min-width: 48em) {
+    main figure img {
+        width: 85.1%;
+        margin: auto;
+      }
+}
+
+@media (min-width: 64em) {
+    main figure img {
+        width: 44.5%;
+        margin: auto;
+      }
+}
+
+@media (min-width: 85em) {
+  main figure img {
+      width: 44.5%;
+      margin: auto;
+    }
+}
+
+@media (min-width: 90em) {
+  main figure img {
+      width: 44.5%;
+      margin: auto;
+    }
+}

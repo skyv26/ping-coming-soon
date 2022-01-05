@@ -1,0 +1,357 @@
+footer{
+    text-align: center;
+    margin-top: 4rem;
+    gap: 2.25rem;
+}
+
+.social-icon{
+    width: 1rem;
+    height: 1rem;
+}
+
+.social-icon:nth-child(odd) {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.social-icon path {
+    fill: hsl(223, 87%, 63%);
+}
+
+.social-media--container {
+    gap: 1rem;
+}
+
+.social-media--container li{
+    border: 1px solid var(--light-blue);
+    border-radius: 50%;
+    width: 2.25rem;
+    height: 2.25rem;
+    list-style: none;
+    overflow: hidden;
+}
+
+.social-media--container li a {
+    width: 100%;
+    height: 100%;   
+}
+
+footer .text-container {
+    gap: 1rem;
+}
+
+footer  .text-container  p{
+    font-size: 0.75rem;
+    color: var(--gray)
+}
+
+footer .text-container .attribution {
+    color: var(--dark-blue)
+}
+
+footer .text-container .attribution a{
+    text-decoration: none;
+    color: initial;
+    font-weight: var(--medium);
+}
+
+footer .text-container .attribution a:hover {
+    color: crimson;
+}
+
+@media (min-width: 20em) {
+    footer{
+        margin-top: 4.25rem;
+        gap: 2.4rem;
+    }
+    
+    .social-icon{
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    .social-icon:nth-child(odd) {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .social-media--container {
+        gap: 1.1rem;
+    }
+    
+    .social-media--container li{
+        border: 1px solid var(--light-blue);
+        border-radius: 50%;
+        width: 2.65rem;
+        height: 2.65rem;
+    }
+    
+    .social-media--container li a {
+        width: 100%;
+        height: 100%;   
+    }
+    
+    footer .text-container {
+        gap: 1.1rem;
+    }
+    
+    footer  .text-container  p{
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 22em) {
+    footer{
+        margin-top: 5rem;
+        gap: 2.75rem;
+    }
+    
+    .social-icon{
+        width: 0.25rem;
+        height: 0.25rem;
+    }
+    
+    .social-icon:nth-child(odd) {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    
+    .social-media--container {
+        gap: 1.3rem;
+    }
+    
+    .social-media--container li{
+        border: 1px solid var(--light-blue);
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .social-media--container li a {
+        width: 100%;
+        height: 100%;   
+    }
+    
+    footer .text-container {
+        gap: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    
+    footer  .text-container  p{
+        font-size: 0.975rem;
+    }
+    
+}
+
+@media (min-width: 23em) {
+    footer{
+        margin-top: 5rem;
+        gap: 2.75rem;
+    }
+    
+    .social-icon{
+        width: 0.25rem;
+        height: 0.25rem;
+    }
+    
+    .social-icon:nth-child(odd) {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    
+    .social-media--container {
+        gap: 1.3rem;
+    }
+    
+    .social-media--container li{
+        border: 1px solid var(--light-blue);
+        border-radius: 50%;
+        width: 3.15rem;
+        height: 3.15rem;
+    }
+    
+    .social-media--container li a {
+        width: 100%;
+        height: 100%;   
+    }
+    
+    footer .text-container {
+        gap: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    
+    footer  .text-container  p{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 48em) {
+    footer{
+        margin-top: 10.6rem;
+        gap: 5.6rem;
+    }
+    
+    .social-icon{
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    
+    .social-icon:nth-child(odd) {
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    
+    .social-media--container {
+        gap: 2.75rem;
+    }
+    
+    .social-media--container li{
+        border: 1.5px solid var(--light-blue);
+        border-radius: 50%;
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    
+    .social-media--container li a {
+        width: 100%;
+        height: 100%;   
+    }
+    
+    footer .text-container {
+        gap: 1.2rem;
+        margin-bottom: 3.75rem;
+    }
+    
+    footer  .text-container  p{
+        font-size: 2.05rem;
+    }
+}
+
+@media (min-width: 64em) {
+    footer{
+        margin-top: -0.25rem;
+        gap: 1.3rem;
+    }
+    
+    .social-icon{
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    
+    .social-icon:nth-child(odd) {
+        width: 0.75rem;
+        height: 0.75rem;
+    }
+    
+    .social-media--container {
+        gap: 0.625rem;
+    }
+    
+    .social-media--container li{
+        border: 1px solid var(--light-blue);
+        border-radius: 50%;
+        width: 1.65rem;
+        height: 1.65rem;
+    }
+    
+    .social-media--container li a {
+        width: 100%;
+        height: 100%;   
+    }
+    
+    footer .text-container {
+        gap: 1.2rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    footer  .text-container  p{
+        font-size: 0.64rem;
+    }
+    
+}
+
+@media (min-width: 85em) {
+    footer{
+        margin-top: -1rem;
+        gap: 2.4rem;
+    }
+    
+    .social-icon{
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    
+    .social-icon:nth-child(odd) {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    
+    .social-media--container {
+        gap: 1.5rem;
+    }
+    
+    .social-media--container li{
+        border: 1px solid var(--light-blue);
+        border-radius: 50%;
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    
+    .social-media--container li a {
+        width: 100%;
+        height: 100%;   
+    }
+    
+    footer .text-container {
+        gap: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    footer  .text-container  p{
+        font-size: 1.15rem;
+    }
+    
+}
+
+@media (min-width: 85em) {
+    footer{
+        margin-top: -0.6rem;
+        gap: 2.75rem;
+    }
+    
+    .social-icon{
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    
+    .social-icon:nth-child(odd) {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .social-media--container {
+        gap: 1.6rem;
+    }
+    
+    .social-media--container li{
+        border: 1px solid var(--light-blue);
+        border-radius: 50%;
+        width: 2.75rem;
+        height: 2.75rem;
+    }
+    
+    .social-media--container li a {
+        width: 100%;
+        height: 100%;   
+    }
+    
+    footer .text-container {
+        gap: 1.2rem;
+        margin-bottom: 2.25rem;
+    }
+    
+    footer  .text-container  p{
+        font-size: 1.2rem;
+    }
+    
+}

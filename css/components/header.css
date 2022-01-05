@@ -1,0 +1,568 @@
+@import url("../global/variables.css");
+
+header {
+  gap: 2.7rem;
+}
+
+header > figure {
+  margin-top: 6.25rem;
+}
+
+header > figure > img {
+  width: 4.1rem;
+}
+
+.header-info {
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.header-info > h1 {
+  font-size: 1.65rem;
+  font-weight: var(--thin);
+  color: var(--gray);
+}
+
+.header-info > h1 > span {
+  font-weight: var(--bold);
+  color: var(--dark-blue);
+}
+
+.header-info > p {
+  font-size: 0.9rem;
+  color: var(--dark-blue);
+}
+
+.header-form {
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: -0.1em;
+  position: relative;
+}
+
+.header-form input {
+  border-radius: 5rem;
+  height: 2.75rem;
+  border: none;
+}
+
+.user_input_output--container {
+  gap: 0.6rem;
+  text-align: center;
+}
+
+.user_input_output--container > input[type="text"] {
+  width: 21rem;
+  outline: 1px solid var(--light-blue);
+  padding-left: 2.5rem;
+  font-size: 0.9rem;
+}
+
+.user_input_output--container > input[type="text"]::placeholder {
+  color: var(--light-blue);
+}
+
+.header-form > input[type="submit"] {
+  width: 21rem;
+  height: 3rem;
+  font-size: 0.9rem;
+  background-color: var(--blue);
+  font-weight: var(--medium);
+  color: white;
+}
+
+.user_input_output--container > p {
+  width: 100%;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--light-red);
+}
+
+.error-msg {
+  opacity: 0;
+}
+
+.gap {
+  gap: 1.75rem;
+  transition: all 1s ease-in;
+}
+
+@media (min-width: 20em) {
+  header {
+    gap: 3rem;
+  }
+
+  header > figure {
+    margin-top: 7.25rem;
+  }
+
+  header > figure > img {
+    width: 4.6rem;
+  }
+
+  .header-info {
+    gap: 1.5rem;
+  }
+
+  .header-info > h1 {
+    font-size: 1.9rem;
+  }
+
+  .header-info > p {
+    font-size: 1.03rem;
+  }
+
+  .header-form {
+    gap: 0.25rem;
+    margin-top: -0.1em;
+  }
+
+  .header-form input {
+    border-radius: 5rem;
+    height: 3.25rem;
+  }
+
+  .user_input_output--container {
+    gap: 0.675rem;
+  }
+
+  .user_input_output--container > input[type="text"] {
+    width: 24rem;
+    outline: 1px solid var(--light-blue);
+    padding-left: 2.5rem;
+    font-size: 0.9rem;
+  }
+
+  .header-form > input[type="submit"] {
+    width: 24rem;
+    height: 3.3rem;
+    font-size: 1rem;
+  }
+
+  .user_input_output--container > p {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .error-msg {
+    opacity: 0;
+  }
+
+  .gap {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 22em) {
+  header {
+    gap: 3.4rem;
+  }
+
+  header > figure {
+    margin-top: 8.25rem;
+  }
+
+  header > figure > img {
+    width: 5.1rem;
+  }
+
+  .header-info {
+    gap: 1.75rem;
+  }
+
+  .header-info > h1 {
+    font-size: 2.125rem;
+  }
+
+  .header-info > p {
+    font-size: 1.175rem;
+  }
+
+  .header-form {
+    gap: 0.25rem;
+    margin-top: -0.3rem;
+  }
+
+  .header-form input {
+    border-radius: 5rem;
+    height: 3.65rem;
+  }
+
+  .user_input_output--container {
+    gap: 0.85rem;
+  }
+
+  .user_input_output--container > input[type="text"] {
+    width: 27rem;
+    outline: 1px solid var(--light-blue);
+    padding-left: 3rem;
+    font-size: 1.25rem;
+  }
+
+  .header-form > input[type="submit"] {
+    width: 27.1rem;
+    height: 3.8rem;
+    font-size: 1.15rem;
+  }
+
+  .user_input_output--container > p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .error-msg {
+    opacity: 0;
+  }
+
+  .gap {
+    gap: 2.1rem;
+  }
+}
+
+@media (min-width: 23em) {
+  header {
+    gap: 3.7rem;
+  }
+
+  header > figure {
+    margin-top: 8.4rem;
+  }
+
+  header > figure > img {
+    width: 5.25rem;
+  }
+
+  .header-info {
+    gap: 1.75rem;
+  }
+
+  .header-info > h1 {
+    font-size: 2.2rem;
+  }
+
+  .header-info > p {
+    font-size: 1.2rem;
+  }
+
+  .header-form {
+    gap: 0.25rem;
+    margin-top: -0.3rem;
+  }
+
+  .header-form input {
+    border-radius: 5rem;
+    height: 3.85rem;
+  }
+
+  .user_input_output--container {
+    gap: 0.85rem;
+  }
+
+  .user_input_output--container > input[type="text"] {
+    width: 28rem;
+    outline: 1px solid var(--light-blue);
+    padding-left: 3rem;
+    font-size: 1.25rem;
+  }
+
+  .header-form > input[type="submit"] {
+    width: 28.25rem;
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+
+  .user_input_output--container > p {
+    width: 100%;
+    font-size: 1.05rem;
+  }
+
+  .error-msg {
+    opacity: 0;
+  }
+
+  .gap {
+    gap: 2.2rem;
+  }
+}
+
+
+@media (min-width: 48em) {
+  header {
+    gap: 7.75rem;
+  }
+
+  header > figure {
+    margin-top: 17.25rem;
+  }
+
+  header > figure > img {
+    width: 11rem;
+  }
+
+  .header-info {
+    gap: 3.75rem;
+  }
+
+  .header-info > h1 {
+    font-size: 4.475rem;
+    letter-spacing: 0.25px;
+  }
+
+  .header-info > p {
+    font-size: 2.5rem;
+  }
+
+  .header-form {
+    gap: 1.5rem;
+    margin-top: -1rem;
+  }
+
+  .header-form input {
+    border-radius: 5rem;
+    height: 7.75rem;
+  }
+
+  .user_input_output--container {
+    gap: 1.6rem;
+  }
+
+  .user_input_output--container > input[type="text"] {
+    width: 57rem;
+    outline: 2px solid var(--light-blue);
+    padding-left: 6.4rem;
+    letter-spacing: 0.5px;
+    font-size: 2.4rem;
+  }
+
+  .header-form > input[type="submit"] {
+    width: 57rem;
+    height: 8rem;
+    font-size: 2.4rem;
+  }
+
+  .user_input_output--container > p {
+    width: 100%;
+    font-size: 2.105rem;
+  }
+
+  .error-msg {
+    opacity: 0;
+  }
+
+  .gap {
+    gap: 5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  header {
+    gap: 2.3rem;
+  }
+
+  header > figure {
+    margin-top: 4.5rem;
+  }
+
+  header > figure > img {
+    width: 4.75rem;
+  }
+
+  .header-info {
+    gap: 0.8rem;
+  }
+
+  .header-info > h1 {
+    font-size: 2.575rem;
+  }
+
+  .header-info > p {
+    font-size: 1.075rem;
+  }
+
+  .header-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: 0;
+  }
+
+  .header-form input {
+    border-radius: 5rem;
+    height: 2.9rem;
+  }
+
+  .user_input_output--container {
+    gap: 0.4rem;
+    text-align: left;
+  }
+
+  .user_input_output--container > input[type="text"] {
+    width: 22.4rem;
+    outline: 1px solid var(--light-blue);
+    padding-left: 1.6rem;
+    font-size: 0.875rem;
+  }
+
+  .header-form > input[type="submit"] {
+    width: 10.6rem;
+    height: 2.9rem;
+    font-size: 0.8rem;
+    margin-top: -0.1rem;
+  }
+
+  .user_input_output--container > p {
+    width: 100%;
+    font-size: 0.67rem;
+    margin-left: 1.4rem;
+  }
+
+  .error-msg {
+    opacity: 0;
+  }
+
+  .gap {
+    gap: 0.8;
+  }
+}
+
+@media (min-width: 85em) {
+  header {
+    gap: 4rem;
+  }
+
+  header > figure {
+    margin-top: 8.25rem;
+  }
+
+  header > figure > img {
+    width: 8.25rem;
+  }
+
+  .header-info {
+    gap: 1.6rem;
+  }
+
+  .header-info > h1 {
+    font-size: 4.56rem;
+  }
+
+  .header-info > p {
+    font-size: 1.925rem;
+  }
+
+  .header-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 0;
+  }
+
+  .header-form input {
+    border-radius: 5rem;
+    height: 5rem;
+  }
+
+  .user_input_output--container {
+    gap: 1rem;
+    text-align: left;
+  }
+
+  .user_input_output--container > input[type="text"] {
+    width: 40rem;
+    outline: 1px solid var(--light-blue);
+    padding-left: 2.75rem;
+    font-size: 1.45rem;
+  }
+
+  .header-form > input[type="submit"] {
+    width: 19rem;
+    height: 5.25rem;
+    font-size: 1.5rem;
+    margin-top: -0.1rem;
+  }
+
+  .user_input_output--container > p {
+    width: 100%;
+    font-size: 1.175rem;
+    margin-left: 3rem;
+  }
+
+  .error-msg {
+    opacity: 0;
+  }
+
+  .gap {
+    gap: 0.8;
+  }
+}
+
+@media (min-width: 90em) {
+  header {
+    gap: 4.75rem;
+  }
+
+  header > figure {
+    margin-top: 8.6rem;
+  }
+
+  header > figure > img {
+    width: 8.75rem;
+  }
+
+  .header-info {
+    gap: 1.6rem;
+  }
+
+  .header-info > h1 {
+    font-size: 4.75rem;
+  }
+
+  .header-info > p {
+    font-size: 2.025rem;
+  }
+
+  .header-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.6rem;
+    margin-top: -0.75rem;
+  }
+
+  .header-form input {
+    border-radius: 5rem;
+    height: 5.4rem;
+  }
+
+  .user_input_output--container {
+    gap: 1rem;
+    text-align: left;
+  }
+
+  .user_input_output--container > input[type="text"] {
+    width: 42rem;
+    outline: 1px solid var(--light-blue);
+    padding-left: 2.75rem;
+    font-size: 1.55rem;
+  }
+
+  .header-form > input[type="submit"] {
+    width: 20rem;
+    height: 5.6rem;
+    font-size: 1.5rem;
+    margin-top: -0.1rem;
+  }
+
+  .user_input_output--container > p {
+    width: 100%;
+    font-size: 1.25rem;
+    margin-left: 3rem;
+  }
+
+  .error-msg {
+    opacity: 0;
+  }
+
+  .gap {
+    gap: 0.8;
+  }
+}

@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+html{
+    height: 100%;
+    font-size: 62.5%;
+    background-color: black;
+}
+
+body {
+    width: 100%;
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: white;
+}
+
+button,
+a, 
+input[type="submit"],
+input[type="button"]{
+    cursor: pointer;
+}

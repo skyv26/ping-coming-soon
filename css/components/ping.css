@@ -1,0 +1,54 @@
+@import url("../global/global.css");
+@import url("../BEM/classes.css");
+@import url("./header.css");
+@import url("./main-container.css");
+@import url("./footer.css");
+
+.container {
+  width: 100%;
+  margin: auto;
+  gap: 5.1rem;
+}
+
+@media (min-width: 20em) {
+    .container {
+        gap: 6rem;
+      }   
+}
+
+@media (min-width: 22em) {
+    .container {
+        gap: 6.6rem;
+      }   
+}
+
+@media (min-width: 23em) {
+    .container {
+        gap: 6.9rem;
+      }   
+}
+
+@media (min-width: 48em) {
+    .container {
+        gap: 14.25rem;
+      }   
+}
+
+
+@media (min-width: 64em) {
+    .container {
+        gap: 4.15rem;
+      }   
+}
+
+@media (min-width: 85em) {
+  .container {
+      gap: 8rem;
+    }   
+}
+
+@media (min-width: 90em) {
+  .container {
+      gap: 7.75rem;
+    }   
+}
