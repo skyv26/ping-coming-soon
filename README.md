@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/skyv26/ping-coming-soon)
+- Live Site URL: [Github Pages](https://skyv26.github.io/ping-coming-soon/)
 
 ## My process
 
@@ -59,7 +59,7 @@ PWA's, ReactJS
 
 ### Useful resources
 
-- [PWA Tutorial](https://youtu.be/7y7xlVo4Iio) - To learn making Progressive Web App
+- [PWA Tutorial By Coding Ninja](https://youtu.be/7y7xlVo4Iio) - To learn making Progressive Web App
 
 ## Author
 
